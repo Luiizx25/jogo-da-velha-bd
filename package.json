@@ -1,0 +1,43 @@
+{
+  "name": "sesinfo2019-react-tictactoe",
+  "description": "Exemplo simples de Jogo da Velha construído com React",
+  "author": "Erick Eduardo Petrucelli <erick.petrucelli@fatectq.edu.br>",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ErickPetru/sesinfo2019-react-tictactoe"
+  },
+  "license": "MIT",
+  "homepage": "https://erickpetru.github.io/sesinfo2019-react-tictactoe/",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
